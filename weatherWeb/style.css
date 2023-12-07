@@ -1,0 +1,60 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:#132a66
+}
+
+h1 {
+    color: #be153c;
+    margin: 20px 0;
+}
+
+/* Style the input and button */
+label {
+    display: block;
+    margin: 10px 0;
+    color: #dbd41089;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style the weather container */
+#weather-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the weather information */
+h2 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #555;
+}
